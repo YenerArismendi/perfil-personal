@@ -96,8 +96,17 @@
 
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
+        <picture>
+            <!-- Para pantallas más pequeñas (móviles) -->
+            <source media="(max-width: 767px)" srcset="assets/img/codigo.jpg">
 
-        <img src="assets/img/codigo.jpg" alt="" data-aos="fade-in" class="">
+            <!-- Para pantallas más grandes (PC) -->
+            <source media="(min-width: 768px)" srcset="assets/img/portatil.jpg">
+
+            <!-- Imagen por defecto en caso de que el navegador no soporte <picture> -->
+            <img src="assets/img/portatil.jpg" alt="Imagen principal">
+        </picture>
+
 
         <div class="container" data-aos="fade-up" data-aos-delay="100">
             <h2>Yener Arismendi</h2>
@@ -313,17 +322,17 @@
                             habilidad para captar problemas y dar soluciones, con participación en un proyecto grande y
                             robusto, el que se comenzó desde 0.</em></p>
                         <ul>
-                            <li>Portland par 127,Orlando, FL</li>
-                            <li>(123) 456-7891</li>
-                            <li>alice.barkley@example.com</li>
+                            <li>Cúcuta, Norte de santander</li>
+                            <li>+57 3154424707</li>
+                            <li>yenerandres22@gmail.com</li>
                         </ul>
                     </div><!-- Edn Resume Item -->
 
-                    <h3 class="resume-title">Education</h3>
+                    <h3 class="resume-title">Educación</h3>
                     <div class="resume-item">
-                        <h4>Master of Fine Arts &amp; Graphic Design</h4>
-                        <h5>2015 - 2016</h5>
-                        <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
+                        <h4>Tecnólogo en desarrollo de software.</h4>
+                        <h5>2022 - 2024</h5>
+                        <p><em>Servicio Nacional de Aprendizaje SENA.</em></p>
                         <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero
                             voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
                     </div><!-- Edn Resume Item -->
